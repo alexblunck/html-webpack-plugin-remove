@@ -5,7 +5,7 @@ The plugin hooks into events emitted by the html-webpack-plugin and simply repla
 
 ### Install
 ```bash
-npm i https://github.com/alexblunck/html-webpack-plugin-remove --save-dev
+npm i html-webpack-plugin-remove --save-dev
 ```
 
 ### webpack.config.js
