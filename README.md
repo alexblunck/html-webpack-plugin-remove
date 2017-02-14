@@ -21,5 +21,3 @@ export default {
 	]
 }
 ```
-
-> **Note** I'm just getting into webpack, so please don't judge too harshly ;)
