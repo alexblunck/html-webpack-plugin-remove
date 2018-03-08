@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-plugin-remove",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Remove parts of html emitted by the html-webpack-plugin using a regular expression",
   "main": "index.js",
   "scripts": {
