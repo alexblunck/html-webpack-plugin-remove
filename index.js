@@ -14,7 +14,12 @@ HtmlWebpackPluginRemove.prototype.apply = function(compiler) {
         // Hook into html-webpack-plugin event
         compilation.plugin('html-webpack-plugin-after-html-processing', function(pluginData, cb) {
             pluginData.html = pluginData.html.replace(test, '');
-            cb(null, pluginData);
+
+            if (cb) {
+                cb(null, pluginData);
+            } else {
+                return Promise.resolve(pluginData)
+            }
         });
     });
 };
